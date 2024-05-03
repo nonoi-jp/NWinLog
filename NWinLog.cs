@@ -166,22 +166,22 @@ namespace NWinLog
                     case LOG_LEVEL.ERROR:
                     if(!EnableErrorLog)
                         return;
-                    WinLogger.ErrorLogFile = GetLogFile();
+                    //WinLogger.ErrorLogFile = GetLogFile();
                     break;
                     case LOG_LEVEL.INFORMATION:
                     if(!EnableInformationLog)
                         return;
-                    WinLogger.InformationLogFile = GetLogFile();
+                    //WinLogger.InformationLogFile = GetLogFile();
                     break;
                     case LOG_LEVEL.TRACE:
                     if(!EnableTraceLog)
                         return;
-                    WinLogger.TraceLogFile = GetLogFile();
+                    //WinLogger.TraceLogFile = GetLogFile();
                     break;
                     case LOG_LEVEL.WARNING:
                     if(!EnableWarningLog)
                         return;
-                    WinLogger.WarningLogFile = GetLogFile();
+                    //WinLogger.WarningLogFile = GetLogFile();
                     break;
                 }
                 string logFile = "";
